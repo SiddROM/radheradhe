@@ -24,12 +24,12 @@ class Var:
     BOT_TOKEN = config("6100344970:AAGrq-OnnEwz9KBahxtCcdo68pXG7kV6Z1I", default=None)
     BACKUP = config("BACKUP", default=0, cast=int)
     FFMPEG = config("FFMPEG", default="ffmpeg")
-    CHAT = config("-1001873702781", cast=int)
+    CHAT = config("1001873702781", cast=int)
     THUMB = config(
         "THUMBNAIL", default="https://te.legra.ph/file/7489c3a0ff4002c01253b.jpg"
     )
     LOG_CHANNEL = config("-1001970622682", default=0, cast=int)
-    CLOUD = config("-1001802196143", cast=int)
+    CLOUD = config("1001802196143", cast=int)
     GDRIVE_FOLDER_ID = config("GDRIVE_FOLDER_ID", default=None)
     TOKEN_FILE_LINK = config("TOKEN_FILE_LINK", default=None)
     INDEX_LINK = config("INDEX_LINK", default="https://github.com/")
