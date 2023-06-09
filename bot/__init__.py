@@ -122,7 +122,7 @@ except Exception as ee:
 
 try:
     LOGS.info("Trying Connect With Redis database")
-    redis_info = Var.REDIS_URI.split("")
+    redis_info = Var.REDIS_URI
     dB = Redis(
         host=redis_info[0],
         port=redis_info[1],
