@@ -19,7 +19,7 @@ from decouple import config
 class Var:
     REDIS_URI = config("redis://admin:7518@Sidd@redis://default:Pn2F48emzKB7TE1nDuUAVDG8yLSmTZuK@redis-17361.c305.ap-south-1-1.ec2.cloud.redislabs.com:17361/Disha-free-db", default=None)
     REDIS_PASS = config("7518@Sidd", default=None)
-    API_ID = config("26019444", default=6, cast=int)
+    API_ID = config(26019444, default=6, cast=int)
     API_HASH = config("a308fac723905cdbd836414b18f3b3d6", default="a308fac723905cdbd836414b18f3b3d6")
     BOT_TOKEN = config("6100344970:AAGrq-OnnEwz9KBahxtCcdo68pXG7kV6Z1I", default=None)
     BACKUP = config("BACKUP", default=0, cast=int)
