@@ -60,7 +60,7 @@ LOGS.info(
 
 # sleep(5) #mere marze
 
-if os.cpu_count() < 4:
+if os.cpu_count() < 1:
     LOGS.warning(
         "These Bot Atleast Need 4vcpu and 32GB Ram For Proper Functiong...\nExiting..."
     )
